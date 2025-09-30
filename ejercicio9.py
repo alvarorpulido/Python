@@ -1,0 +1,5 @@
+x = float(input("Introduce la cantidad a invertir: "))
+y = float(input("Introduce el interés anual (en %): "))
+z = int(input("Introduce el número de años: "))
+capital_final = x * (1 + (y / 100) * z)
+print(f"El capital obtenido después de {z} años es: {capital_final}")
